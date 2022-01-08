@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20190801 at Tue May 17 20:52:44 2016
+ By Unknown
+Created by Apache with FontForge 2.0 (http://fontforge.sf.net)
+</metadata>
+<defs>
+<font id="Flaticon" horiz-adv-x="187" >
+  <font-face 
+    font-family="Flaticon"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 6 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="0 -57.6667 512 442"
+    underline-thickness="25"
+    underline-position="-76"
+    unicode-range="U+0020-F100"
+  />
+<missing-glyph 
+d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
+    <glyph glyph-name=".notdef" 
+d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="170" 
+ />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="200" 
+ />
+    <glyph glyph-name="uniF100" unicode="&#xf100;" horiz-adv-x="512" 
+d="M477.5 314q34.5 -59 34.5 -128q0 -84 -49 -151t-126 -92q-9 -2 -13 2t-4 10v70q0 33 -18 48q19 2 34.5 6t31.5 13t27 22t17.5 35t6.5 50q0 40 -26 69q12 30 -3 68q-9 3 -26.5 -4t-30.5 -15l-13 -8q-31 9 -64 9t-64 -9q-6 4 -14 9q-9 6 -28 13.5t-29 4.5q-14 -38 -2 -68
+q-26 -29 -26 -69q0 -28 6.5 -50t17.5 -35t27 -22t31 -13t34 -6q-13 -12 -16 -35q-7 -3 -15 -4.5t-19 -1.5t-22 7t-18 21q-7 10 -16.5 17t-16.5 8l-7 1q-7 0 -9.5 -1.5t-1.5 -4t3 -4.5l4 -4l3 -2q7 -3 14 -12.5t11 -16.5l3 -8q4 -13 14.5 -20.5t22.5 -10t23 -2.5t19 1l7 2
+v-30q1 -17 1 -18q0 -6 -4.5 -10t-13.5 -2q-77 25 -126 92t-49 151q0 69 34.5 128t93 93.5t128.5 34.5t128.5 -34.5t93 -93.5z" />
+  </font>
+</defs></svg>

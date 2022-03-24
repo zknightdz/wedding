@@ -224,12 +224,12 @@ a:focus {
   color: #ffffff;
 }
 
-#countdown {
+.countdown-time {
   color: #5e9a8e;
   overflow: hidden;
 }
 
-#countdown li {
+.countdown-time li {
   background: rgba(255, 255, 255, 0.9);
   width: 24%;
   float: left;
@@ -2456,6 +2456,10 @@ a:focus {
   .wedding-couple-section .img-holder {
     background: none !important;
   }
+}
+
+.count-down-section-married {
+  margin-top: 30px;
 }
 
 /*--------------------------------------------------------------

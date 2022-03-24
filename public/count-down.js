@@ -1,3 +1,4 @@
+//count to 16-01-2022
 (function () {
     const second = 1000,
         minute = second * 60,
@@ -41,3 +42,33 @@
             //seconds
         }, 0)
 }());
+
+//count from 16-01-2022
+var startDateTime = new Date(2022,1,14,0,0,0,0); // YYYY (M-1) D H m s (start time and date from DB)
+var startStamp = startDateTime.getTime();
+
+var newDate = new Date();
+var newStamp = newDate.getTime();
+
+var timer;
+
+function updateClock() {
+    newDate = new Date();
+    newStamp = newDate.getTime();
+    var diff = Math.round((newStamp-startStamp)/1000);
+    
+    var d = Math.floor(diff/(24*60*60));
+    diff = diff-(d*24*60*60);
+    var h = Math.floor(diff/(60*60));
+    diff = diff-(h*60*60);
+    var m = Math.floor(diff/(60));
+    diff = diff-(m*60);
+    var s = diff;
+    
+    document.getElementById("m-days").innerText = d;
+    document.getElementById("m-hours").innerText = h;
+    document.getElementById("m-minutes").innerText = m;
+    document.getElementById("m-seconds").innerText = s;
+}
+
+setInterval(updateClock, 1000);

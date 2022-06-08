@@ -24,7 +24,7 @@ function handleNormalFunction() {
 function handlePromise() {
     // Promise khai báo 1 object với than số là 1 callback function với 2 tham số là resolve và reject
     const currentPromise = new Promise((resolve, reject) => {
-        let condition = false;
+        let condition = true;
         if (condition) {
             httpGetAsync('https://picsum.photos/400/400', resolve);
         }

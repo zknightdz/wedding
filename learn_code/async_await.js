@@ -75,14 +75,18 @@ function handleAsync() {
     });
 
     const executeAsync = async function() {
-        const response = await promise4;
-        document.getElementById("img_7").setAttribute("src", response.responseURL);
+        try {
+            const response = await promise4;
+            document.getElementById("img_7").setAttribute("src", response.responseURL);
 
-        const response2 = await promise5;
-        document.getElementById("img_8").setAttribute("src", response2.responseURL);
+            const response2 = await promise5;
+            document.getElementById("img_8").setAttribute("src", response2.responseURL);
 
-        const response3= await promise6;
-        document.getElementById("img_9").setAttribute("src", response3.responseURL);
+            const response3 = await promise6;
+            document.getElementById("img_9").setAttribute("src", response3.responseURL);
+        } catch (err) {
+            console.log({err});
+        }
     };
 
     executeAsync();
